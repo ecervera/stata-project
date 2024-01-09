@@ -1,0 +1,181 @@
+		(1)	(2)	(3)	(4)
+VARIABLES	LABELS	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012
+					
+1.tfem	Female Top Manager = 1	-0.284***	-0.280***	-0.347***	-0.104
+		(0.083)	(0.090)	(0.118)	(0.140)
+pcfemunsk	pcfemunsk	0.000	-0.001	0.000	-0.003
+		(0.001)	(0.001)	(0.001)	(0.002)
+0b.tfem#co.pcfemunsk		0.000	0.000	0.000	0.000
+		(0.000)	(0.000)	(0.000)	(0.000)
+1.tfem#c.pcfemunsk		0.003*	0.004**	0.005**	0.000
+		(0.002)	(0.002)	(0.002)	(0.004)
+lnwagem11d	Ln Average Manager Wages in 2011	0.628***	0.639***	0.374**	0.766***
+		(0.092)	(0.110)	(0.146)	(0.142)
+edumanmin	Minimum education level of the manager, 1-8	-0.029	-0.036	-0.036	-0.069
+		(0.046)	(0.049)	(0.070)	(0.071)
+edumanav	Average education level of the manager, 1-8	0.011	0.004	0.014	-0.008
+		(0.021)	(0.022)	(0.028)	(0.034)
+expsec	years of experience in the same sector	-0.001	0.001	-0.004	0.008*
+		(0.002)	(0.003)	(0.003)	(0.004)
+lnage	Ln Age of the firm	0.046	0.024	0.099*	-0.078
+		(0.041)	(0.043)	(0.057)	(0.064)
+lnnworkers	Ln Number of employees	0.007	-0.007	-0.065*	0.074
+		(0.027)	(0.028)	(0.034)	(0.047)
+fixas	The firm purchases fixed assets	0.070	0.084	0.126*	0.052
+		(0.050)	(0.052)	(0.067)	(0.086)
+shareh	shareholding company	0.079	0.073	0.108	0.024
+		(0.061)	(0.061)	(0.075)	(0.109)
+partner	Partnership including limited liability	-0.096	-0.082	-0.050	-0.111
+		(0.071)	(0.071)	(0.096)	(0.114)
+limpartner	Limited Partnership	0.038	0.012	0.031	0.028
+		(0.079)	(0.081)	(0.107)	(0.129)
+multi	The establishment part of a larger firm	-0.043	-0.030	-0.004	-0.101
+		(0.070)	(0.073)	(0.089)	(0.126)
+foreign	Percentage of the firm owned by foreigners	0.078	0.076	-0.018	0.267**
+		(0.073)	(0.076)	(0.091)	(0.130)
+exporter	The firm exports	0.078	0.116*	0.072	0.176*
+		(0.061)	(0.064)	(0.085)	(0.099)
+manuf	Manufacturing activities	0.039	0.455		
+		(0.203)	(0.498)		
+retail	Retail activities	0.317*	0.469	-0.086	
+		(0.188)	(0.305)	(0.279)	
+web	The firm uses its own website	0.056	0.070	0.150**	-0.078
+		(0.052)	(0.054)	(0.067)	(0.089)
+techas	The firm benefits from any technical assistance programs	0.053	0.043	0.007	0.102
+		(0.061)	(0.063)	(0.073)	(0.116)
+innovd	Innovation department	0.258***	0.221**	0.646*	0.177
+		(0.098)	(0.107)	(0.330)	(0.130)
+innovp	Innovation introduced	-0.106*	-0.088	-0.059	-0.088
+		(0.062)	(0.067)	(0.086)	(0.113)
+skills	Inadequately educated workforce	-0.005	-0.014	0.039	-0.104***
+		(0.021)	(0.022)	(0.027)	(0.035)
+permits	Business licencing and permits	0.055**	0.065**	0.082**	0.059
+		(0.026)	(0.027)	(0.035)	(0.044)
+accesfinance	Access to finance	-0.076***	-0.079***	-0.075***	-0.086**
+		(0.023)	(0.023)	(0.028)	(0.038)
+macroenv	Macroeconomic environment	-0.010	-0.015	-0.038	0.013
+		(0.019)	(0.020)	(0.024)	(0.034)
+corruption	Corruption	-0.021	-0.007	0.005	0.010
+		(0.025)	(0.026)	(0.035)	(0.040)
+crime	Crime, theft and disorder	0.004	-0.005	0.023	-0.024
+		(0.023)	(0.024)	(0.032)	(0.038)
+tel	Telecomunications	0.047*	0.056**	0.075**	0.028
+		(0.026)	(0.026)	(0.034)	(0.041)
+elec	Electricity	-0.056**	-0.065***	-0.092***	-0.039
+		(0.023)	(0.023)	(0.031)	(0.034)
+trans	Transportation	0.016	0.020	0.018	0.021
+		(0.022)	(0.023)	(0.029)	(0.038)
+land	Access to land	0.006	0.003	-0.014	0.030
+		(0.022)	(0.022)	(0.029)	(0.038)
+policy	Political environment	-0.026	-0.026	-0.049*	0.003
+		(0.021)	(0.022)	(0.026)	(0.039)
+taxrates	Tax rates	0.006	0.006	0.003	-0.008
+		(0.023)	(0.024)	(0.032)	(0.037)
+taxadmin	Tax administration	-0.049**	-0.064**	-0.095***	-0.017
+		(0.025)	(0.025)	(0.031)	(0.042)
+customs	Customs and trade regulations	-0.003	-0.018	-0.016	0.007
+		(0.025)	(0.026)	(0.034)	(0.041)
+labour	Labour regulations	0.023	0.024	0.018	0.029
+		(0.023)	(0.023)	(0.030)	(0.037)
+17o.SECTOR#11o.countryc			0.000		0.000
+			(0.000)		(0.000)
+18o.SECTOR#11o.countryc			0.000		0.000
+			(0.000)		(0.000)
+29o.SECTOR#6o.countryc			0.000		0.000
+			(0.000)		(0.000)
+29o.SECTOR#11o.countryc			0.000		0.000
+			(0.000)		(0.000)
+31o.SECTOR#13o.countryc			0.000		0.000
+			(0.000)		(0.000)
+45o.SECTOR#2o.countryc			0.000		
+			(0.000)		
+45o.SECTOR#3o.countryc			0.000		
+			(0.000)		
+45o.SECTOR#6o.countryc			0.000		
+			(0.000)		
+45o.SECTOR#7o.countryc			0.000		
+			(0.000)		
+50o.SECTOR#2o.countryc			0.000		
+			(0.000)		
+50o.SECTOR#3o.countryc			0.000		
+			(0.000)		
+50o.SECTOR#7o.countryc			0.000		
+			(0.000)		
+50o.SECTOR#11o.countryc			0.000	0.000	
+			(0.000)	(0.000)	
+51o.SECTOR#2o.countryc			0.000		
+			(0.000)		
+51o.SECTOR#3o.countryc			0.000		
+			(0.000)		
+51o.SECTOR#7o.countryc			0.000		
+			(0.000)		
+52o.SECTOR#2o.countryc			0.000		
+			(0.000)		
+52o.SECTOR#3o.countryc			0.000		
+			(0.000)		
+52o.SECTOR#7o.countryc			0.000		
+			(0.000)		
+52o.SECTOR#13o.countryc			0.000	0.000	
+			(0.000)	(0.000)	
+55o.SECTOR#2o.countryc			0.000		
+			(0.000)		
+55o.SECTOR#3o.countryc			0.000		
+			(0.000)		
+55o.SECTOR#7o.countryc			0.000		
+			(0.000)		
+60o.SECTOR#2o.countryc			0.000		
+			(0.000)		
+60o.SECTOR#3o.countryc			0.000		
+			(0.000)		
+60o.SECTOR#6o.countryc			0.000	0.000	
+			(0.000)	(0.000)	
+60o.SECTOR#7o.countryc			0.000		
+			(0.000)		
+72o.SECTOR#2o.countryc			0.000		
+			(0.000)		
+72o.SECTOR#7o.countryc			0.000		
+			(0.000)		
+72o.SECTOR#11o.countryc			0.000	0.000	
+			(0.000)	(0.000)	
+72o.SECTOR#13o.countryc			0.000		
+			(0.000)		
+52o.SECTOR	Sector Code = 52, omitted	-			
+					
+72o.SECTOR	Sector Code = 72, omitted	-			
+					
+o.manuf	Manufacturing activities = o,			-	-
+					
+45b.SECTOR#1b.countryc				0.000	
+				(0.000)	
+45b.SECTOR#4.countryc				0.589*	
+				(0.321)	
+45b.SECTOR#5.countryc				-1.137***	
+				(0.314)	
+45b.SECTOR#6o.countryc				0.000	
+				(0.000)	
+45b.SECTOR#8.countryc				-0.105	
+				(0.364)	
+45b.SECTOR#9.countryc				-0.205	
+				(0.324)	
+45b.SECTOR#10.countryc				-0.025	
+				(0.388)	
+45b.SECTOR#11.countryc				-0.764*	
+				(0.441)	
+45b.SECTOR#12.countryc				-0.127	
+				(0.437)	
+45b.SECTOR#13.countryc				-0.494	
+				(0.336)	
+o.retail	Retail activities = o,				-
+					
+Constant	Constant	4.816***	4.519***	7.443***	4.127***
+		(0.923)	(1.126)	(1.460)	(1.447)
+					
+Observations		1,461	1,461	912	549
+R-squared		0.233	0.346	0.302	0.490
+Country FE		Yes			
+Sector FE		Yes			
+Country-Sector FE			Yes	Yes	Yes
+Manufactures					Yes
+Services				Yes	
+Robust standard errors in parentheses					
+*** p<0.01, ** p<0.05, * p<0.1					

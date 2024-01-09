@@ -1,0 +1,19 @@
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)	(8)
+VARIABLES	LABELS	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012
+									
+tfemmore	1 if at least 50% among managers are female:tfem_cat	-0.054	-0.062	-0.125**	0.090				
+		(0.044)	(0.045)	(0.054)	(0.082)				
+gendivm	There are males and females in management team					0.017	0.004	0.030	-0.019
+						(0.048)	(0.051)	(0.062)	(0.096)
+Constant	Constant	5.002***	4.304***	5.168***	4.960***	4.968***	4.207***	5.055***	4.988***
+		(0.642)	(0.762)	(0.837)	(1.320)	(0.643)	(0.755)	(0.835)	(1.303)
+									
+Observations		1,820	1,820	1,221	599	1,822	1,822	1,221	601
+R-squared		0.247	0.349	0.326	0.446	0.247	0.349	0.323	0.445
+Country FE		Yes				Yes			
+Sector FE		Yes				Yes			
+Country-Sector FE			Yes	Yes	Yes		Yes	Yes	Yes
+Manufactures					Yes				Yes
+Services				Yes				Yes	
+Robust standard errors in parentheses									
+*** p<0.01, ** p<0.05, * p<0.1									

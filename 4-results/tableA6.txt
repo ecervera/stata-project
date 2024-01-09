@@ -1,0 +1,19 @@
+		(1)	(2)	(3)	(4)	(5)
+VARIABLES	LABELS	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012	Ln Total sales per worker in 2012
+						
+pcfemman1	pcfemman1	-0.077	0.422**	0.233	0.411	-0.121
+		(0.053)	(0.193)	(0.188)	(0.241)	(0.528)
+c.pcfemman1#c.pcfemman1			-0.557**	-0.393*	-0.512*	-0.188
+			(0.225)	(0.220)	(0.266)	(0.458)
+Constant	Constant	4.569***	4.619***	3.980***	4.895***	4.735***
+		(0.503)	(0.516)	(0.653)	(0.580)	(0.583)
+						
+Observations		1,824	1,824	1,824	1,221	603
+R-squared		0.252	0.255	0.354	0.327	0.457
+Country FE		Yes	Yes			
+Sector FE		Yes	Yes			
+Country-Sector FE				Yes	Yes	Yes
+Manufactures						Yes
+Services					Yes	
+Robust standard errors in parentheses						
+*** p<0.01, ** p<0.05, * p<0.1						
