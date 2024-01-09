@@ -9,7 +9,3 @@ ssc inst fsum
 
 net install nopo, from("https://raw.githubusercontent.com/mhamjediers/nopo_decomposition/master/")
 net install grc1leg, from( http://www.stata.com/users/vwiggins/) 
-
-* do "Setup.do"
-* do "Replication code.do"
-
