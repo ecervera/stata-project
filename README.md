@@ -9,9 +9,5 @@
 
 1. Clone this repository
 2. Copy your `stata.lic` file in the repository folder
-3. Launch an interactive Stata container with `run_stata.sh`
-4. Execute in the Stata prompt:
-```
-do Setup.do
-do "Replication code.do"
-```
+3. Build the software image with `build_image.sh`
+4. Run the project with `run_stata_project.sh`
